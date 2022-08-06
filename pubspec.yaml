@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  flutter_neumorphic: ^3.2.0
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +19,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: bariol
+      fonts:
+        - asset: assets/fonts/bariol/bariol_regular-webfont.ttf
+          weight: 400
+        - asset: assets/fonts/bariol/bariol_bold-webfont.ttf
+          weight: 700
